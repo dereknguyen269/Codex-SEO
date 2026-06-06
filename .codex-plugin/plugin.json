@@ -6,8 +6,8 @@
     "name": "AgriciDaniel",
     "url": "https://github.com/AgriciDaniel"
   },
-  "homepage": "https://github.com/AgriciDaniel/codex-seo",
-  "repository": "https://github.com/AgriciDaniel/codex-seo",
+  "homepage": "https://github.com/dereknguyen269/Codex-SEO",
+  "repository": "https://github.com/dereknguyen269/Codex-SEO",
   "license": "MIT",
   "keywords": [
     "codex",
@@ -49,7 +49,7 @@
       "Interactive",
       "Write"
     ],
-    "websiteURL": "https://github.com/AgriciDaniel/codex-seo",
+    "websiteURL": "https://github.com/dereknguyen269/Codex-SEO",
     "defaultPrompt": [
       "Audit this website for SEO issues.",
       "Check schema and Core Web Vitals for this URL.",

@@ -10,8 +10,8 @@
 
 Codex-first SEO analysis suite with 1 orchestrator skill, 26 specialist workflows, 24 TOML agent profiles, MCP/API extensions, deterministic headless runners, and premium audit report generation.
 
-[![CI](https://github.com/AgriciDaniel/codex-seo/actions/workflows/runners-ci.yml/badge.svg)](https://github.com/AgriciDaniel/codex-seo/actions/workflows/runners-ci.yml)
-[![Release](https://img.shields.io/github/v/release/AgriciDaniel/codex-seo?label=Release)](https://github.com/AgriciDaniel/codex-seo/releases)
+[![CI](https://github.com/dereknguyen269/Codex-SEO/actions/workflows/runners-ci.yml/badge.svg)](https://github.com/dereknguyen269/Codex-SEO/actions/workflows/runners-ci.yml)
+[![Release](https://img.shields.io/github/v/release/dereknguyen269/Codex-SEO?label=Release)](https://github.com/dereknguyen269/Codex-SEO/releases)
 [![Codex Skill](https://img.shields.io/badge/Codex-Skill_Suite-blue)](https://github.com/openai/codex)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](pyproject.toml)
@@ -45,9 +45,9 @@ It covers technical SEO, on-page analysis, content quality, E-E-A-T, schema mark
 ## Status
 
 - Repository visibility: public.
-- Current release: [`v1.9.6-codex.5`](https://github.com/AgriciDaniel/codex-seo/releases/tag/v1.9.6-codex.5).
-- Installer default ref: `v1.9.6-codex.5`.
-- Latest local validation: 52 tests passing, full installed smoke suite passing, demo readiness passing.
+- Current release: not tagged yet in this fork.
+- Installer default ref: `main`.
+- Latest local validation: 56 tests passing, full installed smoke suite passing, demo readiness passing.
 - Runtime credentials stay outside the repo under Codex/local config paths.
 - Discovery topics: `codex`, `codex-cli`, `codex-skills`, `seo`, `ai-seo`, `ai-search`, `technical-seo`, `generative-engine-optimization`, `core-web-vitals`, `schema-markup`, `local-seo`, `ecommerce-seo`, `content-strategy`, `google-search-console`, `dataforseo`, `mcp`, `python`, `automation`, `marketing-automation`, `open-source`.
 
@@ -56,28 +56,28 @@ It covers technical SEO, on-page analysis, content quality, E-E-A-T, schema mark
 ### One-Line Install
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/AgriciDaniel/codex-seo/v1.9.6-codex.5/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/dereknguyen269/Codex-SEO/main/install.sh | bash
 ```
 
 Windows:
 
 ```powershell
-irm https://raw.githubusercontent.com/AgriciDaniel/codex-seo/v1.9.6-codex.5/install.ps1 | iex
+irm https://raw.githubusercontent.com/dereknguyen269/Codex-SEO/main/install.ps1 | iex
 ```
 
 ### Review Before Installing
 
 ```bash
-git clone https://github.com/AgriciDaniel/codex-seo.git
-cd codex-seo
+git clone https://github.com/dereknguyen269/Codex-SEO.git
+cd Codex-SEO
 bash install.sh
 ```
 
 Windows:
 
 ```powershell
-git clone https://github.com/AgriciDaniel/codex-seo.git
-cd codex-seo
+git clone https://github.com/dereknguyen269/Codex-SEO.git
+cd Codex-SEO
 powershell -ExecutionPolicy Bypass -File .\install.ps1
 ```
 
@@ -87,8 +87,8 @@ The installer copies the skill suite into `~/.codex/skills/`, installs TOML agen
 
 ```bash
 CODEX_HOME=~/.codex \
-CODEX_SEO_REPO=https://github.com/AgriciDaniel/codex-seo \
-CODEX_SEO_REF=v1.9.6-codex.5 \
+CODEX_SEO_REPO=https://github.com/dereknguyen269/Codex-SEO \
+CODEX_SEO_REF=main \
 bash install.sh
 ```
 
@@ -96,7 +96,7 @@ bash install.sh
 |---|---|
 | `CODEX_HOME` | Alternate Codex home. Defaults to `~/.codex`. |
 | `CODEX_SEO_REPO` | Git URL, fork URL, or local repository path. |
-| `CODEX_SEO_REF` | Branch, tag, or commit. Defaults to `v1.9.6-codex.5`. |
+| `CODEX_SEO_REF` | Branch, tag, or commit. Defaults to `main`. |
 | `CODEX_SEO_SKIP_PLAYWRIGHT_BROWSER=1` | Skip Chromium install for visual/PDF workflows. |
 | `CODEX_SEO_PLAYWRIGHT_WITH_DEPS=1` | Ask Playwright to install system dependencies where supported. |
 

@@ -76,8 +76,8 @@ main() {
     SKILLS_ROOT="${CODEX_ROOT}/skills"
     AGENT_DIR="${CODEX_ROOT}/agents"
     SKILL_DIR="${SKILLS_ROOT}/seo"
-    REPO_URL="${CODEX_SEO_REPO:-https://github.com/AgriciDaniel/codex-seo}"
-    REPO_REF="${CODEX_SEO_REF:-v1.9.6-codex.5}"
+    REPO_URL="${CODEX_SEO_REPO:-https://github.com/dereknguyen269/Codex-SEO}"
+    REPO_REF="${CODEX_SEO_REF:-main}"
     PYTHON_BIN="$(resolve_python)" || { echo "[ERROR] Python 3 is required but not installed."; exit 1; }
     SUITE_SKILL_DIRS=(
         seo

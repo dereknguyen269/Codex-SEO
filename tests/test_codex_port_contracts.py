@@ -74,7 +74,7 @@ def test_codex_plugin_manifest_is_valid():
     assert manifest["version"] == "1.9.6+codex.5"
     assert manifest["skills"] == "./skills/"
     assert manifest["hooks"] == "./hooks/hooks.json"
-    assert manifest["repository"] == "https://github.com/AgriciDaniel/codex-seo"
+    assert manifest["repository"] == "https://github.com/dereknguyen269/Codex-SEO"
     assert manifest["interface"]["displayName"] == "Codex SEO"
 
 

@@ -4,7 +4,7 @@
 
 ## Project
 
-- Repository: https://github.com/AgriciDaniel/codex-seo
+- Repository: https://github.com/dereknguyen269/Codex-SEO
 - License: MIT
 - Current version: 1.9.6+codex.1
 - Canonical skill entrypoint: skills/seo/SKILL.md
@@ -14,9 +14,9 @@
 
 ## Install
 
-- Private preview: `gh repo clone AgriciDaniel/codex-seo && cd codex-seo && bash install.sh`
-- Future public install: `curl -fsSL https://raw.githubusercontent.com/AgriciDaniel/codex-seo/main/install.sh | bash`
-- Windows private preview: `gh repo clone AgriciDaniel/codex-seo; cd codex-seo; powershell -ExecutionPolicy Bypass -File .\install.ps1`
+- Private preview: `gh repo clone dereknguyen269/Codex-SEO && cd Codex-SEO && bash install.sh`
+- Future public install: `curl -fsSL https://raw.githubusercontent.com/dereknguyen269/Codex-SEO/main/install.sh | bash`
+- Windows private preview: `gh repo clone dereknguyen269/Codex-SEO; cd Codex-SEO; powershell -ExecutionPolicy Bypass -File .\install.ps1`
 
 ## Core Docs
 
